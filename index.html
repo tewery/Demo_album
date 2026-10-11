@@ -1,0 +1,598 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffdf7">
+  <meta name="description" content="Memory Club — демо фотоальбома от VibeWeb.">
+  <title>Memory Club ☀️ | VibeWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Плавающие смайлики -->
+  <div class="emoji-bg" aria-hidden="true">
+    <span>😊</span><span>✨</span><span>😎</span>
+    <span>💗</span><span>🌼</span><span>😂</span>
+    <span>💫</span><span>🫶</span><span>😜</span>
+    <span>⭐</span><span>🥹</span><span>💛</span>
+    <span>🌈</span><span>🦋</span>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header">
+    <a class="logo" href="https://t.me/alwayWebVibe"
+       target="_blank" rel="noopener">
+      <span class="logo-icon">✦</span> VibeWeb
+    </a>
+
+    <div class="header-right">
+      <span class="demo-label">
+        <span class="status-dot"></span>
+        ДЕМО-САЙТ
+      </span>
+      <span class="header-tag">memory club ☀️</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Главный экран -->
+    <section class="hero">
+      <div class="hero-sticker sticker-one">😜</div>
+      <div class="hero-sticker sticker-two">✨</div>
+      <div class="hero-sticker sticker-three">💛</div>
+
+      <div class="hero-badge">
+        <span>📸</span> YOUR LITTLE PHOTO WORLD
+      </div>
+
+      <h1>
+        Фотоальбом<br>
+        <span>безумных моментов</span>
+        <span class="title-emoji">💛</span>
+      </h1>
+
+      <p class="hero-description">
+        Смешные фотки, случайные кадры<br>
+        и воспоминания, которые хочется сохранить.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#album" class="main-button">
+          Смотреть альбом <span>↓</span>
+        </a>
+        <a href="https://t.me/alwayWebVibe"
+           target="_blank" rel="noopener"
+           class="secondary-button">
+          Создать свой сайт ↗
+        </a>
+      </div>
+
+      <div class="hero-bottom-note">
+        <span>✳</span> made for your memories <span>✳</span>
+      </div>
+    </section>
+
+    <!-- Фотоальбом -->
+    <section class="album-section" id="album">
+      <div class="section-top">
+        <div class="section-heading">
+          <p class="eyebrow">COLLECTION № 01</p>
+          <h2>Наши моменты <span>📸</span></h2>
+          <p class="muted">Каждая фотка — отдельная история.</p>
+        </div>
+
+        <button type="button" class="add-button" id="addButton">
+          <span class="plus-icon">＋</span>
+          Добавить фото
+          <span class="lock-icon">🔒</span>
+        </button>
+
+        <input id="photoInput" type="file" accept="image/*"
+               multiple hidden>
+      </div>
+
+      <div class="tip">
+        <span class="tip-icon">💡</span>
+        <span>
+          Добавляй фотографии, придумывай подписи и собирай свою коллекцию.
+        </span>
+      </div>
+
+      <div class="album-info">
+        <span>🖼️ ТВОЯ КОЛЛЕКЦИЯ</span>
+        <span id="photoCount">0 фотографий</span>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <div class="empty-state" id="emptyState">
+          <div class="empty-illustration">
+            <span class="empty-star">✦</span>
+            📷
+            <span class="empty-heart">♡</span>
+          </div>
+          <h3>Здесь пока пусто!</h3>
+          <p>
+            Самое время добавить первую фотографию<br>
+            и начать собирать воспоминания.
+          </p>
+          <button type="button" class="empty-button" id="emptyAddButton">
+            ＋ Выбрать фотографии 🔒
+          </button>
+        </div>
+      </div>
+
+      <p class="storage-note">
+        🔒 Добавление и удаление защищены демо-паролем.
+        Фотографии хранятся в браузере на этом устройстве.
+      </p>
+    </section>
+
+    <!-- Блок VibeWeb -->
+    <section class="bottom-note">
+      <div class="note-decoration decoration-left">✦</div>
+      <div class="note-decoration decoration-right">✿</div>
+
+      <div class="note-emoji">🥹💗</div>
+      <p class="eyebrow">EVERY MOMENT MATTERS</p>
+
+      <h2>
+        У каждой истории<br>
+        <span>свой сайт.</span>
+      </h2>
+
+      <p class="bottom-description">
+        Это демоверсия сайта от VibeWeb.<br>
+        Представь сайт, созданный специально для тебя!
+      </p>
+
+      <a class="order-button"
+         href="https://t.me/alwayWebVibe"
+         target="_blank" rel="noopener">
+        <span>💌</span> Хочу свой сайт
+        <span class="button-arrow">↗</span>
+      </a>
+
+      <a class="channel-link"
+         href="https://t.me/alwayWebVibe"
+         target="_blank" rel="noopener">
+        Смотреть канал VibeWeb →
+      </a>
+
+      <div class="brand-note">
+        Made with <span>♥</span> by
+        <a href="t.me/alwayWebVibe"
+           target="_blank" rel="noopener">VibeWeb</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <a class="footer-brand" href="https://t.me/alwayWebVibe"
+       target="_blank" rel="noopener">✦ VibeWeb</a>
+    <span class="footer-text">
+      Храни моменты, а не идеальные кадры.
+    </span>
+    <a class="footer-up" href="#">↑ Наверх</a>
+  </footer>
+
+  <!-- Окно ввода пароля -->
+  <div class="password-overlay" id="passwordOverlay" hidden>
+    <form class="password-modal" id="passwordForm">
+      <button type="button" class="modal-close" id="passwordClose"
+              aria-label="Закрыть">×</button>
+
+      <div class="password-emoji">🔐</div>
+      <p class="eyebrow">VIBEWEB MEMORY CLUB</p>
+      <h2>Демо-версия </h2>
+      <p class="password-description" id="passwordDescription">
+        Сайт будет доступен при покупке!
+      </p>
+
+      <label class="password-label" for="passwordInput">
+        Пароль от альбома
+      </label>
+
+      <div class="password-field">
+        <input id="passwordInput" type="password"
+               placeholder="Демоверсия не позволит добавить фото!"
+               autocomplete="off" required>
+        <button type="button" id="togglePassword"
+                class="toggle-password" aria-label="Показать пароль">
+          👁️
+        </button>
+      </div>
+
+      <p class="password-error" id="passwordError" aria-live="polite"></p>
+
+      <button class="password-submit" type="submit">
+        Подтвердить доступ →
+      </button>
+
+      <p class="password-hint">✨Пароль для конфидециальности!</p>
+    </form>
+  </div>
+
+  <!-- Просмотр фотографии -->
+  <div class="viewer" id="viewer" hidden>
+    <button class="viewer-close" id="viewerClose"
+            aria-label="Закрыть">×</button>
+    <img id="viewerImage" src="" alt="Увеличенная фотография">
+  </div>
+
+  <div class="toast" id="toast" role="status"
+       aria-live="polite"></div>
+
+  <script>
+    // ДЕМО-ПАРОЛЬ. В публичном HTML его можно обнаружить.
+    const EDIT_PASSWORD = "demoweb";
+
+    const input = document.getElementById("photoInput");
+    const addButton = document.getElementById("addButton");
+    const emptyAddButton = document.getElementById("emptyAddButton");
+    const gallery = document.getElementById("gallery");
+    const emptyState = document.getElementById("emptyState");
+    const photoCount = document.getElementById("photoCount");
+    const toast = document.getElementById("toast");
+
+    const passwordOverlay = document.getElementById("passwordOverlay");
+    const passwordForm = document.getElementById("passwordForm");
+    const passwordInput = document.getElementById("passwordInput");
+    const passwordDescription = document.getElementById("passwordDescription");
+    const passwordError = document.getElementById("passwordError");
+    const passwordClose = document.getElementById("passwordClose");
+    const togglePassword = document.getElementById("togglePassword");
+
+    const viewer = document.getElementById("viewer");
+    const viewerImage = document.getElementById("viewerImage");
+    const viewerClose = document.getElementById("viewerClose");
+
+    const DB_NAME = "VibeWebMemoryClub";
+    const STORE_NAME = "photos";
+
+    let db;
+    let toastTimer;
+    let currentViewerUrl = null;
+    let passwordResolve = null;
+    let passwordPurpose = "add";
+    let previousFocus = null;
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2800);
+    }
+
+    // Пароль запрашивается при каждой операции редактирования.
+    function requestPassword(purpose) {
+      if (passwordResolve) {
+        passwordResolve(false);
+        passwordResolve = null;
+      }
+
+      passwordPurpose = purpose;
+      previousFocus = document.activeElement;
+
+      passwordDescription.textContent = purpose === "delete"
+        ? "Введи пароль, чтобы удалить фотографию."
+        : "Введи пароль, чтобы добавить фотографии.";
+
+      passwordInput.value = "";
+      passwordError.textContent = "";
+      passwordInput.type = "password";
+      togglePassword.textContent = "👁️";
+      passwordOverlay.hidden = false;
+
+      requestAnimationFrame(() => passwordInput.focus());
+
+      return new Promise(resolve => {
+        passwordResolve = resolve;
+      });
+    }
+
+    function finishPassword(success) {
+      passwordOverlay.hidden = true;
+      passwordInput.value = "";
+      passwordError.textContent = "";
+
+      const resolve = passwordResolve;
+      passwordResolve = null;
+
+      if (resolve) resolve(success);
+
+      if (previousFocus && typeof previousFocus.focus === "function") {
+        previousFocus.focus();
+      }
+    }
+
+    passwordForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      if (passwordInput.value === EDIT_PASSWORD) {
+        finishPassword(true);
+      } else {
+        passwordError.textContent = "Демоверсия сайта не позволит добавлять фото";
+        passwordInput.select();
+      }
+    });
+
+    passwordClose.addEventListener("click", () => {
+      finishPassword(false);
+    });
+
+    passwordOverlay.addEventListener("click", event => {
+      if (event.target === passwordOverlay) {
+        finishPassword(false);
+      }
+    });
+
+    togglePassword.addEventListener("click", () => {
+      const show = passwordInput.type === "password";
+      passwordInput.type = show ? "text" : "password";
+      togglePassword.textContent = show ? "🙈" : "👁️";
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !passwordOverlay.hidden) {
+        finishPassword(false);
+      }
+    });
+
+    // Открываем выбор фотографий только после верного пароля.
+    async function startAddingPhotos() {
+      const authorized = await requestPassword("add");
+      if (authorized) {
+        input.click();
+      }
+    }
+
+    addButton.addEventListener("click", startAddingPhotos);
+    emptyAddButton.addEventListener("click", startAddingPhotos);
+
+    function openDatabase() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(DB_NAME, 1);
+
+        request.onupgradeneeded = () => {
+          const database = request.result;
+
+          if (!database.objectStoreNames.contains(STORE_NAME)) {
+            database.createObjectStore(STORE_NAME, {
+              keyPath: "id",
+              autoIncrement: true
+            });
+          }
+        };
+
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+
+    function runTransaction(mode, action) {
+      return new Promise((resolve, reject) => {
+        const tx = db.transaction(STORE_NAME, mode);
+        const request = action(tx.objectStore(STORE_NAME));
+
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+        tx.onabort = () => reject(
+          tx.error || new Error("Операция отменена")
+        );
+      });
+    }
+
+    function getPhotos() {
+      return runTransaction("readonly", store => store.getAll());
+    }
+
+    function savePhoto(photo) {
+      return runTransaction("readwrite", store => store.add(photo));
+    }
+
+    function updatePhoto(photo) {
+      return runTransaction("readwrite", store => store.put(photo));
+    }
+
+    function removePhoto(id) {
+      return runTransaction("readwrite", store => store.delete(id));
+    }
+
+    function updatePhotoCount(count) {
+      const word = count === 1
+        ? "фотография"
+        : count >= 2 && count <= 4
+          ? "фотографии"
+          : "фотографий";
+
+      photoCount.textContent = `${count} ${word}`;
+    }
+
+    function updateEmptyState() {
+      const count = gallery.querySelectorAll(".photo-card").length;
+      emptyState.hidden = count > 0;
+      updatePhotoCount(count);
+    }
+
+    // Просмотр фотографии
+    function openViewer(blob) {
+      closeViewer();
+      currentViewerUrl = URL.createObjectURL(blob);
+      viewerImage.src = currentViewerUrl;
+      viewer.hidden = false;
+      document.body.classList.add("viewer-open");
+    }
+
+    function closeViewer() {
+      viewer.hidden = true;
+      viewerImage.src = "";
+      document.body.classList.remove("viewer-open");
+
+      if (currentViewerUrl) {
+        URL.revokeObjectURL(currentViewerUrl);
+        currentViewerUrl = null;
+      }
+    }
+
+    viewerClose.addEventListener("click", closeViewer);
+
+    viewer.addEventListener("click", event => {
+      if (event.target === viewer) closeViewer();
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !viewer.hidden) closeViewer();
+    });
+
+    // Создание карточки фотографии
+    function createPhotoCard(photo) {
+      const card = document.createElement("article");
+      card.className = "photo-card";
+
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "photo-image-wrap";
+
+      const image = document.createElement("img");
+      const imageUrl = URL.createObjectURL(photo.image);
+
+      image.src = imageUrl;
+      image.alt = photo.caption || "Фотография из альбома";
+      image.loading = "lazy";
+      image.addEventListener("click", () => openViewer(photo.image));
+
+      // Удаление требует пароль каждый раз.
+      const deleteButton = document.createElement("button");
+      deleteButton.className = "delete-button";
+      deleteButton.type = "button";
+      deleteButton.textContent = "×";
+      deleteButton.title = "Удалить фотографию 🔒";
+      deleteButton.setAttribute("aria-label", "Удалить фотографию");
+
+      deleteButton.addEventListener("click", async () => {
+        const authorized = await requestPassword("delete");
+        if (!authorized) return;
+
+        if (!confirm("Точно удалить эту фотографию из альбома?")) {
+          return;
+        }
+
+        try {
+          await removePhoto(photo.id);
+          URL.revokeObjectURL(imageUrl);
+          card.remove();
+          updateEmptyState();
+          showToast("Фотография удалена 🫡");
+        } catch (error) {
+          console.error(error);
+          showToast("Не удалось удалить фотографию.");
+        }
+      });
+
+      // Подпись доступна для редактирования без пароля.
+      const caption = document.createElement("input");
+      caption.className = "photo-caption";
+      caption.type = "text";
+      caption.maxLength = 100;
+      caption.placeholder = "Добавь подпись ✍️";
+      caption.value = photo.caption || "";
+      caption.setAttribute("aria-label", "Подпись к фотографии");
+
+      let captionTimer;
+
+      caption.addEventListener("input", () => {
+        clearTimeout(captionTimer);
+
+        captionTimer = setTimeout(async () => {
+          try {
+            photo.caption = caption.value;
+            await updatePhoto(photo);
+          } catch (error) {
+            console.error(error);
+            showToast("Не удалось сохранить подпись.");
+          }
+        }, 350);
+      });
+
+      const date = document.createElement("div");
+      date.className = "photo-date";
+      date.innerHTML = '<span>✦</span> memory saved';
+
+      imageWrap.append(image, deleteButton);
+      card.append(imageWrap, caption, date);
+
+      return card;
+    }
+
+    async function renderPhotos() {
+      const photos = await getPhotos();
+
+      gallery.querySelectorAll(".photo-card").forEach(card => {
+        card.remove();
+      });
+
+      photos.sort((a, b) => b.id - a.id);
+      photos.forEach(photo => gallery.appendChild(createPhotoCard(photo)));
+
+      updateEmptyState();
+    }
+
+    // Импорт фотографий
+    input.addEventListener("change", async () => {
+      const files = Array.from(input.files || []);
+      const images = files.filter(file => file.type.startsWith("image/"));
+
+      if (!images.length) {
+        input.value = "";
+        return;
+      }
+
+      const maxSize = 15 * 1024 * 1024;
+
+      if (images.some(file => file.size > maxSize)) {
+        showToast("Есть фото больше 15 МБ. Выбери файлы поменьше.");
+        input.value = "";
+        return;
+      }
+
+      try {
+        for (const file of images) {
+          await savePhoto({
+            image: file,
+            caption: "",
+            addedAt: new Date().toISOString()
+          });
+        }
+
+        await renderPhotos();
+        showToast("Готово! Фотографии добавлены 💛");
+      } catch (error) {
+        console.error(error);
+        showToast("Не удалось сохранить фото. Возможно, закончилось место.");
+      }
+
+      input.value = "";
+    });
+
+    // Запуск
+    (async function init() {
+      if (!("indexedDB" in window)) {
+        showToast("Этот браузер не поддерживает сохранение альбома.");
+        return;
+      }
+
+      try {
+        db = await openDatabase();
+        await renderPhotos();
+      } catch (error) {
+        console.error(error);
+        showToast("Не удалось открыть хранилище альбома.");
+      }
+    })();
+  </script>
+</body>
+</html>
